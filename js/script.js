@@ -2,6 +2,9 @@ const nav = document.querySelector('#nav');
 const abrir = document.querySelector('#abrir');
 const cerrar = document.querySelector('#cerrar');
 
+window.onload = function() {
+    window.scrollTo(0, 0);
+}
 
 function toggleNav() {
     nav.classList.add("nav-visible");

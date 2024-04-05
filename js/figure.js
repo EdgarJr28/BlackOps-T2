@@ -83,6 +83,8 @@ function animate() {
     object.rotation.y = -3 + mouseX / window.innerWidth * 3;
     object.rotation.x = -1.2 + mouseY * 2.5 / window.innerHeight;
   }
+
+  object.rotation.y += 0.002
   renderer.render(scene, camera);
 }
 
@@ -97,8 +99,6 @@ window.addEventListener("resize", function () {
 document.onmousemove = (e) => {
   mouseX = e.clientX;
   mouseY = e.clientY;
-  console.log(camera.position.z, "z - y", camera.position.y)
-  console.log(camera.position)
 }
 
 //Start the 3D rendering
