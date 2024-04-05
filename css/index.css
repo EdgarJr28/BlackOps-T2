@@ -105,7 +105,7 @@ body {
         margin-left: 10px;
     }
     .ocultar-cerrar-menu{
-        display: none;
+        visibility: hidden;
     }
 
     .reiniciar-spin {

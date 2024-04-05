@@ -11,15 +11,17 @@
 .home-btn {
     display: flex;
     border: 1px;
-    color: #000000;
+    color: #ffffff;
     margin: 0px !important;
-    background-color: #ffffff;
+    background-color: #000000;
     border: none;
     width: 20%;
     padding: 12px 4px;
     text-decoration: none;
     display: inline-block;
     border-radius: 8px;
+    border: 1px solid;
+    border-color: #FFFFFF;
 }
 
 
@@ -34,10 +36,10 @@
 
 
 .home-btn:hover {
-    color: #FFFFFF;
-    background-color: transparent;
+    color: #000000;
+    background-color: #FFFFFF;
     border: 1px solid;
-    border-color: #FFFFFF;
+    border-color: #000000;
 }
 
 @media screen and (max-width: 680px) {
@@ -64,11 +66,11 @@
 
     .home-btn {
         /* home Section */
-        background-color: #ffffff;
+        background-color: #000000;
         /* Green */
         border: none;
         width: 90%;
-        color: #000000;
+        color: #ffffff;
         padding: 12px 4px;
         text-align: center;
         text-decoration: none;
@@ -76,13 +78,14 @@
         font-size: 16px;
         border-radius: 12px;
         margin: 2rem 1rem;
+        border: 1px solid;
+        border-color: #FFFFFF;
     }
 
     .home-btn:hover {
         color: #CFDCED;
-        background-color: transparent;
-        border: 1px solid;
-        border-color: #FFFFFF;
+        background-color: #FFFFFF;
+     
     }
 
     .home-img {
