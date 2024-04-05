@@ -1,0 +1,8 @@
+Model Information:
+* title:	G17 9mm Pistol Schematics
+* source:	https://sketchfab.com/3d-models/g17-9mm-pistol-schematics-95867c27c084496db8b960c4465e2cdf
+* author:	Mateusz Woliński (https://sketchfab.com/jeandiz)
+
+Model License:
+* license type:	SKETCHFAB Standard (https://sketchfab.com/licenses)
+* requirements:	Under basic restrictions, use worldwide, on all types of media, commercially or not, and in all types of derivative works
