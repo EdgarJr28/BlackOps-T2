@@ -34,6 +34,9 @@ body {
     background-color: #000000;
 }
 
+a{ 
+    text-decoration: none;
+}
 
 .nav {
     gap: 28rem;
@@ -43,6 +46,7 @@ body {
 
 .logo {
     max-width: 9rem;
+    color: #ffffff;
 }
 
 .nav-list {
@@ -125,7 +129,7 @@ body {
         top: 0;
         right: 0;
         bottom: 0;
-        background: rgba(0, 0, 0, .5);;
+        background: rgba(0, 0, 0, 0.945);;
         padding: 20px;
         padding-right: 30px;
         box-shadow: 0 0 0 100vmax rgba(0, 0, 0, .5);
@@ -135,7 +139,6 @@ body {
     .nav-visible {
         opacity: 1;
         visibility: visible;
-        /* Asegúrate de que el elemento tenga una posición relativa o absoluta */
         z-index: 999;
         overflow: hidden;
         position: fixed;
