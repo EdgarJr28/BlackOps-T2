@@ -5,6 +5,6 @@ Grupo : Edgar Maldonado Sanchez
 
 Carlos Mendoza Villa
 
-Deploy Link : https://digital-agency-landing-page-iota.vercel.app/
+Deploy Link : https://black-ops-t2.vercel.app/
 
 @DevEd
