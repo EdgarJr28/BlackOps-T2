@@ -1,7 +1,9 @@
 # BlackOps Page
 Universidad de la Costa
 
-Grupo : Edgar Maldonado Sanchez
+Grupo : 
+
+Edgar Maldonado Sanchez
 
 Carlos Mendoza Villa
 
