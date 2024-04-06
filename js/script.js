@@ -4,7 +4,7 @@ try {
     window.addEventListener('unload', function (e) {
         window.scrollTo(0, 0);
     });
-    
+
     const nav = document.querySelector('#nav');
     const abrir = document.querySelector('#abrir');
     const cerrar = document.querySelector('#cerrar');
@@ -45,7 +45,7 @@ try {
         cerrar.classList.add('reiniciar-spin');
 
     })
-    
+
     registerBtn.addEventListener('click', () => {
         container.classList.add("active");
     });
@@ -75,7 +75,16 @@ function closeMenu() {
         void cerrar.offsetWidth; // Trigger reflow
         cerrar.classList.add('reiniciar-spin');
     } catch (error) {
+        /* console.log(e.message); */
+    }
 
+}
+
+function buttonPreRegister() {
+    try {
+        window.location.href = "conex.html";
+    } catch (e) {
+       /*  console.log(e.message); */
     }
 
 }
