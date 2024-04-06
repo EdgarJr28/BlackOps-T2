@@ -84,8 +84,14 @@ function animate() {
     object.rotation.x = -1.2 + mouseY * 2.5 / window.innerHeight;
   }
 
-  object.rotation.y += 0.002
-  renderer.render(scene, camera);
+  try {
+    object.rotation.y += 0.002
+    renderer.render(scene, camera);
+  } catch (e) {
+    /* console.log(e.message) */
+  }
+
+  
 }
 
 //Add a listener to the window, so we can resize the window and the camera

@@ -12,10 +12,9 @@
     <link rel="stylesheet" href="./css/index.css">
     <link rel="stylesheet" href="./css/home.css">
     <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="./css/usersModal.css">
 
 </head>
-
-
 
 <body>
     <header>
@@ -24,10 +23,10 @@
         <nav class="nav" id="nav">
             <button id="cerrar" class="cerrar-menu"><i class="bi bi-x-lg"></i></button>
             <ul class="nav-list">
-                <li><a href="index.html" onclick="test()">Home</a></li>
-                <li><a href="conex.html" onclick="test()">Log In</a></li>
-                <li><a href="conex.html" onclick="test()">Pre-Register</a></li>
-                <li><a href="#" onclick="test()">Users</a></li>
+                <li><a href="#">Home</a></li>
+                <li><a href="conex.html">Log In</a></li>
+                <li onclick="closeMenu()"><a data-bs-toggle="modal" class="userListModal" data-bs-target="#userListModal">Users</a></li>
+                <li><a href="conex.html">Pre-Register</a></li>
             </ul>
         </nav>
     </header>
@@ -46,39 +45,69 @@
     <section id="contact">
         <div class="footer">
             <div class="grid-container">
-                    <div class="grid-item">
-                        <h1 class="grid-title">Black<i class="bi bi-crosshair2"></i>ps</h1>
-                        <p class="grid-description">Building digital products,
-                            brands & experience</p>
-                    </div>
-                    <div class="grid-item">
-                        <h1 class="grid-title">Resources</h1>
-                        <p class="grid-description">Guides</p>
-                        <p class="grid-description">Blog</p>
-                        <p class="grid-description">Customers Stories</p>
-                        <p class="grid-description">Glossery</p>
-                    </div>
-                    <div class="grid-item">
-                        <h1 class="grid-title">Company</h1>
-                        <p class="grid-description">About Us</p>
-                        <p class="grid-description">Careers</p>
-                        <p class="grid-description">Partners</p>
-                        <p class="grid-description">Contact Us</p>
-                    </div>
-                    <div class="grid-item">
-                        <h1 class="grid-title">Social Media</h1>
-                        <p class="grid-description">Linkedin</p>
-                        <p class="grid-description">Facebook</p>
-                        <p class="grid-description">Instagram</p>
-                        <p class="grid-description">Twitter</p>
-                    </div>
+                <div class="grid-item">
+                    <h1 class="grid-title">Black<i class="bi bi-crosshair2"></i>ps</h1>
+                    <p class="grid-description">Building digital products,
+                        brands & experience</p>
+                </div>
+                <div class="grid-item">
+                    <h1 class="grid-title">Resources</h1>
+                    <p class="grid-description">Guides</p>
+                    <p class="grid-description">Blog</p>
+                    <p class="grid-description">Customers Stories</p>
+                    <p class="grid-description">Glossery</p>
+                </div>
+                <div class="grid-item">
+                    <h1 class="grid-title">Company</h1>
+                    <p class="grid-description">About Us</p>
+                    <p class="grid-description">Careers</p>
+                    <p class="grid-description">Partners</p>
+                    <p class="grid-description">Contact Us</p>
+                </div>
+                <div class="grid-item">
+                    <h1 class="grid-title">Social Media</h1>
+                    <p class="grid-description">Linkedin</p>
+                    <p class="grid-description">Facebook</p>
+                    <p class="grid-description">Instagram</p>
+                    <p class="grid-description">Twitter X</p>
+                </div>
             </div>
         </div>
     </section>
+    <!-- modal users -->
+    <!-- Modal -->
+    <div class="modal fade" id="userListModal" tabindex="-1" aria-labelledby="userListModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-scrollable">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="userListModalLabel">Registered Users</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <table id="tablaUsuarios" class="table">
+                        <thead>
+                            <tr>
+                                <th scope="col">id</th>
+                                <th scope="col">Name</th>
+                                <th scope="col">Email</th>
+                                <th scope="col">X</th>
+                            </tr>
+                        </thead>
+                        <tbody>
 
+                        </tbody>
+                    </table>
+                </div>
+                <div class="footer-modal">
+                    <button type="button" class="btn btn-outline-danger" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
 </footer>
 
 <script src="./js/script.js"></script>
+<script src="./js/conexCenter.js"></script>
 <script type="module" src="js/figure.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"

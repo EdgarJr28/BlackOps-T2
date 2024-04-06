@@ -1,0 +1,54 @@
+.btn-no-border {
+    border: none !important;
+    width: 100%;
+}
+
+.userListModal{
+    color: #FFFFFF !important;
+}
+.modal {
+    background-color: transparent !important;
+    backdrop-filter: blur(10px);
+}
+
+.modal-content {
+    background-color: #000000 !important;
+    color: #FFFFFF !important;
+    text-wrap: nowrap !important;
+}
+
+th,
+td {
+    background-color: #000000 !important;
+    color: #FFFFFF !important;
+    border: 1px solid #FFFFFF !important;
+    text-align: center !important;
+    padding: 10px;
+    /* Ajusta el espacio interno */
+}
+
+/* td {
+    background-color: #000000 !important;
+    color: #FFFFFF !important;
+    border: 1px solid #FFFFFF !important;
+} */
+
+/* Movil */
+.modal-body {
+    padding: 1px 0px !important;
+}
+
+#tablaUsuarios {
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    font-size: 14px !important;
+
+}
+
+.footer-modal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5%;
+}
